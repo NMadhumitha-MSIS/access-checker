@@ -20,7 +20,7 @@ if (!url) {
   console.log(`Found ${results.violations.length} types of problems on ${url}`);
   results.violations.forEach((v, i) => {
     const plain = explanations[v.id];
-    console.log(`\n${i + 1}. [${v.impact.toUpperCase()}] ${plain ? plain.title : v.help} (${v.nodes.length} places)`);
+    console.log(`\n${i + 1}. [${v.impact.toUpperCase()}] ${plain ? plain.title : v.help} (${v.nodes.length} ${v.nodes.length === 1 ? 'place' : 'places'});
     if (plain) {
       console.log(`   Why it matters: ${plain.why}`);
       console.log(`   How to fix: ${plain.fix}`);
