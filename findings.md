@@ -9,5 +9,5 @@
 - Tina's Hair Salon Brighton (salon, own website): 7 types of problems, including 1 critical (a button with no name).
 - Emme on Zenoti (salon, booking platform page): 6 types of problems. Mostly Zenoti's to fix, not the salon's.
 - Pretty Chic PMU (makeup studio, own website): 1 type of problem, hard-to-read text in 9 places.
-
+- This checker's own page: 0 problems found by the automatic check.
 Pattern so far: hard-to-read text appeared on every scanned site except Lolly's on Toast.
