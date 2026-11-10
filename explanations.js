@@ -53,5 +53,10 @@ module.exports = {
     title: "Headings skip levels",
     why: "Headings work like a table of contents. Skipping levels makes the page confusing for people who navigate by headings.",
     fix: "Use headings in order: a main heading first, then smaller subheadings, without skipping."
+  },
+    "meta-refresh": {
+    title: "The page reloads or jumps to another page on its own",
+    why: "When a page changes by itself after a few seconds, people who read slowly or use read-aloud software can lose their place or never finish reading.",
+    fix: "Ask your web designer to send visitors straight to the right page instead of using a timed jump."
   }
 };
