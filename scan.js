@@ -35,7 +35,7 @@ if (!url) {
       console.log(`   Why it matters: ${plain.why}`);
       console.log(`   How to fix: ${plain.fix}`);
     } else {
-      console.log('   (No plain-English explanation yet)');
+        console.log(`   (No plain-English explanation yet. Code name: ${v.id})`);
     }
   });
   await browser.close();
