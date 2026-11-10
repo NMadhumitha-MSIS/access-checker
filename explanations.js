@@ -58,5 +58,20 @@ module.exports = {
     title: "The page reloads or jumps to another page on its own",
     why: "When a page changes by itself after a few seconds, people who read slowly or use read-aloud software can lose their place or never finish reading.",
     fix: "Ask your web designer to send visitors straight to the right page instead of using a timed jump."
-  }
+  },
+    "aria-required-children": {
+    title: "A menu or list is missing pieces read-aloud software expects",
+    why: "Part of the page is labeled as something special, like a menu, but is missing the items inside it. Read-aloud software gets confused, like a table of contents with no chapters.",
+    fix: "Ask your web designer to check that each menu or tab section contains the right items."
+  },
+  "frame-title": {
+    title: "An embedded box has no name",
+    why: "Sites often show content from elsewhere in a box, like a map, video, or booking form. Without a name, read-aloud software cannot tell visitors what is inside.",
+    fix: "Ask your web designer to give each embedded box a short name, like 'Map to our office' or 'Book an appointment'."
+  },
+  "landmark-unique": {
+    title: "Two page sections have the same label",
+    why: "When two sections, like two menus, share the same label, visitors using read-aloud software cannot tell them apart, like two doors with the same sign.",
+    fix: "Give each section its own name, like 'Main menu' and 'Footer menu'."
+  },
 };
